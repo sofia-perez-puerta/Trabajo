@@ -10,15 +10,35 @@
     <h1 Titulo="center">About</h1>
     <table> 
         <tr>
-            <a href="../index.html" target="_blank">Home</a>
-            <a href="about.html" target="_blank">About</a>
-            <a href="contact.html" target="_blank">Contact</a>
-            <a href="degree.html" target="_blank">Degree</a>
-            <a href="net.html" target="_blank">Net</a>
-            <a href="topic.html" target="_blank">Topic</a>
+            <a href="../index.html" target="_self">Home</a>
+            <a href="about.html" target="_self">About</a>
+            <a href="contact.html" target="_self">Contact</a>
+            <a href="degree.html" target="_self">Degree</a>
+            <a href="net.html" target="_self">Net</a>
+            <a href="topic.html" target="_self">Topic</a>
         </tr>
     </table>
 
-    <p><d>Primera pagina web</d></p>
+    <form> <!--Formulario-->
+        <ul>
+            <li>
+                <label for="Nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+            </li>
+            <li>
+                <label for="Apellidos">Apellidos:</label><br>
+                <input type="text" id="apellidos" name="apellidos"><br>
+            </li>
+            <li>
+                <label for="Telefono">Telefono:</label><br>
+                <input type="text" id="telefono" name="telefono"><br>
+            </li>
+            <li>
+                <label for="Correo">Correo:</label><br>
+                <input type="text" id="correo" name="correo"><br><br>
+            </li>
+            <button type="submit">Enviar</button>
+        </ul>
+    </form>
 </body>
 </html>
