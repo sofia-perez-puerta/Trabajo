@@ -13,10 +13,16 @@ h1 {
 }
 
 .Fondo {
-  background-image: url("../images/mia.jpeg");
   max-width: 50%;
   max-height: 50%;
   height: auto;
   width: auto;
   float: right;
+}
+
+.enlaces {
+  margin-right: 10px;
+  text-decoration: none; /*Quita subrayado a los enlaces*/
+  color: #006666;
+  font-weight: bold;
 }
