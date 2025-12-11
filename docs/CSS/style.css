@@ -15,14 +15,19 @@ h1 {
 .Fondo {
   max-width: 50%;
   max-height: 50%;
-  height: auto;
-  width: auto;
+  height: 500px;
+  width: 700px;
   float: right;
 }
 
 .enlaces {
   margin-right: 10px;
   text-decoration: none; /*Quita subrayado a los enlaces*/
-  color: #006666;
+  color: #198a8a;
   font-weight: bold;
+  font-size: 18px;
+}
+
+.enlaces:hover {
+  color: #082e2e;
 }
