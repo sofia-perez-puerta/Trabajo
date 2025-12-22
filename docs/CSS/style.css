@@ -5,17 +5,25 @@ body {
   font-family: Arial, sans-serif;
 }
 
-nav.menu, h1 {
-  margin: 10px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
 h1 {
   color: #329a83;
   font-family: verdana;
   font-size: 300%;
   text-align: center;
+}
+h2 {
+  color: #1e4343;
+  font-family: verdana;
+}
+h3 {
+  color: #406464;
+  font-family: verdana;
+}
+
+nav.menu, h1 {
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .imagen {
@@ -50,8 +58,11 @@ h1 {
 }
 
 .menu ul {
-  list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+ul{
+  list-style-type: none;
 }
