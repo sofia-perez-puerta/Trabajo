@@ -1,5 +1,5 @@
 body {
-  background-color: #e6fffa;
+  background-color: #14463c;
   margin: 20px;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -19,50 +19,105 @@ h3 {
   color: #e9b1cd;
   font-family: verdana;
 }
-
-nav.menu, h1 {
-  margin: 10px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.imagen {
-  max-width: 50%;
-  max-height: 50%;
-  height: 500px;
-  width: 700px;
-  float: right;
-}
-
-.enlaces {
-  margin-right: 10px;
-  text-decoration: none; /*Quita subrayado a los enlaces*/
-  color: #198a8a;
-  font-weight: bold;
+p {
+  color: #ffffff;
   font-size: 18px;
 }
-
-.enlaces:hover {
-  color: #082e2e;
+ul {
+  color: #ffffff;
+  font-size: 18px;
+  list-style: none;
 }
+img.imagen {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
 
 .menu{
-  margin-top: 10px;
-  background-color: #fff;
-  padding: 20px 40px;
-  width: 360px;
-  display: inline-flex;
-  align-items: center;
-  border-radius: 35px;
-  margin-right: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,.25);
 }
-
-.menu ul {
+.menu ul{
+  list-style: none;
   display: flex;
+  justify-content: center;
+  gap: 22px;
   margin: 0;
   padding: 0;
 }
-
-ul{
-  list-style-type: none;
+.menu li{
+  margin: 0;
+  padding: 0;
 }
+.menu a{
+  color: rgba(255,255,255,.85);
+  font-weight: 600;
+  letter-spacing: .6px;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 8px 10px;
+}
+.menu a:hover{
+  background: rgba(255,255,255,.1);
+  border-radius: 4px;
+}
+
+.introduccion {
+  min-height: calc(70vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.imagenCentral {
+  width: 220px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 140px;
+  border: 2px solid rgba(255,255,255,.35);
+}
+.titulo {
+  margin: 10px 0 0;
+  color: rgba(255,255,255,.92);
+  font-family: "Georgia", serif;
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.subtitulo {
+  margin: 0;
+  color: rgba(255,255,255,.70);
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.enlaces {
+  color: #c3829e;
+  text-decoration: none;
+}
+.contenido{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+.bloque{
+  padding: 22px 0;
+  border-top: 1px solid rgba(255,255,255,.18);
+}
+.lista{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
