@@ -29,12 +29,6 @@ ul {
   margin: 0;
   margin-bottom: 8px;
 }
-img{
-  width: 400px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 20px;  
-}
 li{
   margin: 0;
   padding: 0; 
@@ -124,8 +118,12 @@ form button{
   font-size: 18px;
 }
 
-.galeria {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
+.galeria{
+  text-align: center;
+}
+img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
 }
