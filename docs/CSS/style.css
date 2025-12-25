@@ -17,6 +17,15 @@ h3 {
   color: #e9b1cd;
   font-family: verdana;
 }
+h4 {
+  color: #4dffc4;
+  font-family: verdana;
+}
+h5 {
+  color: #76bba4;
+  font-family: verdana;
+  margin-bottom: 6px;
+}
 p {
   color: #f6fffc;
   font-size: 18px;
@@ -88,6 +97,13 @@ li{
 .bloque{
   padding: 22px;
   border-top: 1px solid rgba(255,255,255,.18);
+}
+.bloqueUl{
+  padding: 22px;
+  border-top: 1px dashed rgba(255,255,255,.18);
+}
+.bloquePrimeroUl{
+  padding: 22px;
 }
 
 form{
