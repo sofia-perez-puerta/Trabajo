@@ -134,12 +134,19 @@ form button{
   font-size: 18px;
 }
 
-.galeria{
-  text-align: center;
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 img{
   width: 400px;
   height: 300px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.persona {
+  width: 400px;
+  text-align: center;
 }
