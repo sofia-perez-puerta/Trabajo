@@ -1,4 +1,4 @@
-Documento detallado de diseño (DDD)
+## Documento detallado de diseño (DDD)
 ## Descripción de su trabajo:
     Este trabajo consiste en el desarrollo de una página web personal para la asignatura Fundamentos de la Ingeniería Informática del primer curso del grado.
 
@@ -20,7 +20,7 @@ Documento detallado de diseño (DDD)
 
     Tuve problemas con el diseño por los márgenes, pero lo acabé solucionando buscando información en W3Schools.
 
-    Y por último, tuve que buscar como se estrcutura un archivo .md, porque el GitHub se ve de diferente formato. 
+    Y por último, tuve que buscar como se estrcutura un archivo .md, porque el GitHub se ve de diferente formato. Para los titulos se le pone ##. 
 
 ## Conclusiones:
     La realización de este proyecto ha sido muy útil para adquirir conocimientos básicos de desarrollo web y para aprender a buscar información de forma autónoma cuando surgían dudas o problemas.
