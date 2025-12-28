@@ -3,6 +3,7 @@
     Este trabajo consiste en el desarrollo de una página web personal para la asignatura Fundamentos de la Ingeniería Informática del primer curso del grado.
 
     El objetivo principal es mostrar los conocimientos adquiridos en HTML y CSS, organización y estructura del sitio.
+    
     Se organizó por carpetas: en la raíz se encuentran el archivo .gitignore, LICENSE, README.md y una carpeta llamada docs, dentro de ella está la carpeta CSS con un solo archivo .css, carpeta images donde se reunen todas las fotos utilizadas, index.html que es la página de inicio, y la carpeta public donde se encuentran el resto de páginas del sitio web, concretamente hay 6. 
 
     La página web está compuesta por varias partes: index (página principal), about (información personal), contact (formulario de contacto), net (enlaces a páginas de otros compañeros), topic (hablo sobre un tema que me interesa "las sakuras") y fii (donde hablo más en profundidad de la asignatura Fundamentos de la Ingeniería Informática).
